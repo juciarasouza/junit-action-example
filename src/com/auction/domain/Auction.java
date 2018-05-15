@@ -14,7 +14,7 @@ public class Auction {
 		this.bids = new ArrayList<Bid>();
 	}
 	
-	public void tender(Bid bid) {
+	public void bid(Bid bid) {
 		if(bids.isEmpty() || canMakeBid(bid.getUser()))
 		bids.add(bid);
 	}

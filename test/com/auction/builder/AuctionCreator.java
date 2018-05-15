@@ -14,7 +14,7 @@ public class AuctionCreator {
 	}
 
 	public AuctionCreator bid(User user, double value) {
-		auction.tender(new Bid(user, value));
+		auction.bid(new Bid(user, value));
 		return this;
 	}
 	
