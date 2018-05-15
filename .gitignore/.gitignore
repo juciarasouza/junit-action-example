@@ -25,6 +25,7 @@
 .classpath
 .project
 *.iml
+/target
 
 #mac files
 ._.DS_Store
